@@ -1,6 +1,6 @@
 const waitPort = require('wait-port');
 const fs = require('fs');
-const mysql = require('mysql');
+const mysql = require('app/src/persistence/mysql');
 
 const {
     MYSQL_HOST: HOST,
